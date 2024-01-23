@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Productos Regionales Santiago del Estero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="hamburger-container">
+      <div id="myLinks">
+        <a href="productos.html">Productos</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="comidas.html">Comidas</a>
+        <a href="nosotros.html">Nosotros</a>
+      </div>
+        <a href="javascript:void(0);" id="icon"; onclick="toggleMenu()">
+          <i class="fa fa-bars fa-3x"></i>
+        </a>
+    </div>
+    <div class="title-container">
+        <div id="titlePlace">SANTIAGO DEL ESTERO</div>
+        <div id="titleProduct">ProductosRegionales</div>
+    </div>
+  </div>
+
+ <div class ="contacto-container">
+    <form action="https://formsubmit.co/ad6cdd18412ead266a2fb2cbc24aadb8" method="POST">
+      <div class="comprador">
+        <div>
+          <label class="input-field">Nombre:</label><br>
+          <input class = "input-field" name="nombre" required> <br>
+          <label class="input-field">Apellido:</label><br>
+          <input class = "input-field" name="apellido" required> <br>
+        </div>
+        <div>
+          <label class="input-field">Correo Electrónico:</label><br>
+          <input class = "input-field" name="mail" required> <br>
+          <label class="input-field">Cellular:</label><br>
+          <input class = "input-field" name="cellular" required> <br>
+        </div>
+      </div>
+      <div class ="pedido">
+          <label class="input-field">Pedido:</label><br>
+          <textarea class = "input-field" name="mensaje" rows="4" cols="48"></textarea>
+          <br>
+          <button class = "button-pedido" type="submit">enviar pedido</button>
+      </div>
+    </form>
+ </div> 
+  
+<div class = "map">
+  <iframe 
+    width= 100%
+    height=300
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d882.6398238822746!2d-64.24936017079969!3d-27.7617359989231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a005d492d3078b9!2zMjfCsDQ1JzQyLjMiUyA2NMKwMTQnNTUuNyJX!5e0!3m2!1sde!2sde!4v1667127130642!5m2!1sde!2sde"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>
+</div>
+
+<footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Deine Webseite. Alle Rechte vorbehalten.</p>
+    </div>
+</footer>
+
+</body>
+</html>
