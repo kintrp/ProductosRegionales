@@ -1,0 +1,144 @@
+html {
+  font-size: 16px; 
+}
+
+/* Navbar */
+
+.hamburger-container{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3498db;
+  margin: 5px;
+}
+
+#myLinks {
+  display: none;
+}
+
+#myLinks a {
+  padding: 10px 12px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+#myLinks a:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+
+#icon{
+  position: absolute;
+  top: 1%;
+  right:1%;
+}
+
+.title-container{
+  height:4rem;
+  background-color: #3498db;
+  margin: 5px;
+}
+
+#titlePlace{
+  font-size: 1.2rem;
+}
+
+#titleProduct{
+  font-size: 2rem;
+}
+
+.filter-container{
+  height:3rem;
+  display:flex;
+  justify-content: flex-end;
+  background-color: #3498db;
+  margin: 5px;
+}
+
+.button {
+  padding: 10px 12px;
+  text-align: center;
+  border: 2px solid #606364;
+  border-radius: 3px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fff;
+}
+
+.button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Products */
+
+.product-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  background-color: grey;
+}
+
+.producto{
+  margin:15px;
+  width: 250px;
+  background-color: beige;
+  text-align: center;
+}
+
+/* Contact */
+
+.contacto-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:5%;
+}
+
+.comprador {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pedido{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.button-pedido{
+  background-color: #34db42;
+  padding: 10px 20px;
+}
+
+/* Map */
+
+.map{
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.footer-content {
+  margin: 0 auto; 
+}
+
+/* MediaQuery */
+
+@media only screen and (max-width: 600px) {
+  html {
+      font-size: 120%; 
+  }
+}
